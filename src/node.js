@@ -171,7 +171,7 @@ function formatArgs(args) {
 		args[0] = prefix + args[0].split('\n').join('\n' + prefix);
 		args.push(colorCode);
 	} else {
-		args[0] = getDate() + name + ' ' + args[0];
+		args[0] = getDate() + name + ' ';
 	}
 }
 
