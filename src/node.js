@@ -20,7 +20,7 @@ exports.useColors = useColors;
  * Colors.
  */
 
-exports.colors = [6, 2, 3, 4, 5, 1];
+exports.colors = [2];
 
 try {
 	// Optional dependency (as in, doesn't need to be installed, NOT like optionalDependencies in package.json)
