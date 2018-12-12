@@ -179,7 +179,7 @@ function getDate() {
 	if (exports.inspectOpts.hideDate) {
 		return '';
 	}
-	return new Date().toISOString() + ' ';
+	return ' ';
 }
 
 /**
